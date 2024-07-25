@@ -5,6 +5,7 @@
   "main": "index.js",
   "bin": "./bin/cli.js",
   "scripts": {
+    "build": "npm install && npm run start",
     "start": "node src/server",
     "dev": "nodemon src/server"
   },
